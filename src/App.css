@@ -1,0 +1,17 @@
+.app {
+  padding: 1rem;
+}
+div#content {
+  display: flex;
+  flex-direction: row;
+}
+
+div#editor {
+  padding: 2rem;
+}
+
+
+div#preview {
+  padding: 2rem;
+  flex-grow: 1;
+}
