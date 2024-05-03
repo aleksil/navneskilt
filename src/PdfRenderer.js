@@ -14,7 +14,7 @@ Font.register({ family: "LM Sans", fontStyle: "normal", src: LMFont });
 const styles = StyleSheet.create({
   page: {
     flexDirection: "row",
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#FFFFFF",
     padding: "2cm",
     paddingLeft: "4cm",
     flexWrap: "wrap",
