@@ -8,8 +8,8 @@ import {
   Font,
 } from "@react-pdf/renderer";
 
-import LMFont from "./fonts/Roboto-Regular.ttf";
-Font.register({ family: "LM Sans", fontStyle: "normal", src: LMFont });
+import RobotoFont from "./fonts/Roboto-Regular.ttf";
+Font.register({ family: "Roboto", fontStyle: "normal", src: RobotoFont });
 
 const styles = StyleSheet.create({
   page: {
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   },
   tt: {
     overflow: "hidden",
-    fontFamily: "LM Sans",
+    fontFamily: "Roboto",
   },
 });
 
